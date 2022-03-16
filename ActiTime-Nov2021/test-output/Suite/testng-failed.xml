@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="McrosoftEdgeTest(failed)">
+    <parameter name="browser" value="McrosoftEdge"/>
+    <classes>
+      <class name="pack123.TestNgTestClass1">
+        <methods>
+          <include name="verifyUserPage"/>
+          <include name="logoutAccount"/>
+          <include name="clearObjects"/>
+          <include name="logInToApplication"/>
+          <include name="verifyTaskTab"/>
+          <include name="closeBrowser"/>
+          <include name="verifyOpenReportPage"/>
+          <include name="createObject"/>
+          <include name="verifyWorkSchedualPage"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- pack123.TestNgTestClass1 -->
+    </classes>
+  </test> <!-- McrosoftEdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
